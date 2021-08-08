@@ -30,9 +30,12 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: translateX(0%) ;
   }
   to {
-    transform: rotate(360deg);
+    transform: translateX(10%);
   }
+}
+.heading{
+  /* animation: App-logo-spin infinite 2s linear; */
 }
